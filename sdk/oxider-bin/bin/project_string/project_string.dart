@@ -1,0 +1,14 @@
+export '.dockerignore.dart';
+export '.gitignore.dart';
+export 'CHANGELOG.md.dart';
+export '_dockerfile.dart';
+export 'analysis_options.yaml.dart';
+export 'bin_server.dart';
+export 'build.yaml.dart';
+export 'lib_main.dart';
+export 'pubspec.yaml.dart';
+export 'readme.md.dart';
+export 'test_server.dart';
+export 'web_index.html.dart';
+export 'web_js_live.js.dart';
+export 'web_main.dart';

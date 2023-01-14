@@ -1,0 +1,18 @@
+import 'dart:html';
+import 'widget.dart';
+
+class Center extends Widget {
+  Widget child;
+  Center({
+    required this.child,
+  });
+  @override
+  Element toElement() {
+    Element element = DivElement()
+      ..classes.add('center')
+      ..children.add(child.toElement());
+
+    
+    return element;
+  }
+}
